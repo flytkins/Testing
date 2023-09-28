@@ -1,0 +1,8 @@
+C:\Users\flytk\source\repos\FuncRealization\FuncRealization\bin\Debug\FuncRealization.exe.config
+C:\Users\flytk\source\repos\FuncRealization\FuncRealization\bin\Debug\FuncRealization.exe
+C:\Users\flytk\source\repos\FuncRealization\FuncRealization\bin\Debug\FuncRealization.pdb
+C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.AssemblyReference.cache
+C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.SuggestedBindingRedirects.cache
+C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.CoreCompileInputs.cache
+C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealization.exe
+C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealization.pdb
