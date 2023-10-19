@@ -6792,11 +6792,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flytk\\source\\repos\\FuncRealization\\MSTest\\MSTest.csproj",
+      "projectUniqueName": "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\MSTest.csproj",
       "projectName": "MSTest",
-      "projectPath": "C:\\Users\\flytk\\source\\repos\\FuncRealization\\MSTest\\MSTest.csproj",
+      "projectPath": "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\MSTest.csproj",
       "packagesPath": "C:\\Users\\flytk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flytk\\source\\repos\\FuncRealization\\MSTest\\obj\\",
+      "outputPath": "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\flytk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6813,8 +6813,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\flytk\\source\\repos\\FuncRealization\\FuncRealization\\FuncRealization.csproj": {
-              "projectPath": "C:\\Users\\flytk\\source\\repos\\FuncRealization\\FuncRealization\\FuncRealization.csproj"
+            "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj": {
+              "projectPath": "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj"
             }
           }
         }

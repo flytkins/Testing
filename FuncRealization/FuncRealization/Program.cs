@@ -17,7 +17,7 @@ namespace FuncRealization
             double b, c, x1, x2, step;
             int n, maxn = 20;
             bool error = false;
-            Console.WriteLine("Enter values:");
+            Console.WriteLine("Enter values: ");
             do
             {
                 Console.Write("b (!=10) = ");
