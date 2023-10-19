@@ -1,0 +1,7 @@
+C:\Users\Student\Documents\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.exe.config
+C:\Users\Student\Documents\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.exe
+C:\Users\Student\Documents\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.pdb
+C:\Users\Student\Documents\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.exe
+C:\Users\Student\Documents\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.pdb
