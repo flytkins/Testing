@@ -3973,19 +3973,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flytk\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\NUnitTest\\NUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\NUnitTest\\NUnitTest.csproj",
       "projectName": "NUnitTest",
-      "projectPath": "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\NUnitTest\\NUnitTest.csproj",
-      "packagesPath": "C:\\Users\\flytk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\NUnitTest\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\NUnitTest\\NUnitTest.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\NUnitTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\flytk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3993,14 +3998,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj": {
-              "projectPath": "C:\\Users\\flytk\\OneDrive\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj"
+            "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj"
             }
           }
         }
@@ -4052,7 +4058,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

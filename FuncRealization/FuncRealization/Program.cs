@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuncRealization
 {
-    internal class Program
+    public class Program
     {
         public static double func(double c, double b, double x)
         {

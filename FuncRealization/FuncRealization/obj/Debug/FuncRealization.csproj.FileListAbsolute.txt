@@ -6,3 +6,10 @@ C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealiz
 C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.CoreCompileInputs.cache
 C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealization.exe
 C:\Users\flytk\source\repos\FuncRealization\FuncRealization\obj\Debug\FuncRealization.pdb
+C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.exe.config
+C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.exe
+C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.pdb
+C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.exe
+C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.pdb
