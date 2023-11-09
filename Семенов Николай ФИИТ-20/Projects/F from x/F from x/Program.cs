@@ -12,15 +12,14 @@ namespace F_from_x
             if (a >= -3 && a <= 23)
             {
                 Console.WriteLine("Parameter 'a' entered incorrectly");
-                return 0;
+                return double.PositiveInfinity;
             }
             if (d == Math.Pow(25, 1.0 / 3))
             {
                 Console.WriteLine("Parameter 'd' entered incorrectly");
-                return 0;
+                return double.NaN;
             }
-            Console.WriteLine((5 / (d * d * d - 25)) * x * x * x + (7 / Math.Sqrt(a * a - 20 * a - 69)) * x * x - 3 * x - 20);
-            return 0;
+            return (5 / (d * d * d - 25)) * x * x * x + (7 / Math.Sqrt(a * a - 20 * a - 69)) * x * x - 3 * x - 20;
         }
         static void Main(string[] args)
         {
