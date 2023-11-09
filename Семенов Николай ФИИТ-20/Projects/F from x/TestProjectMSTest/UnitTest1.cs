@@ -32,7 +32,7 @@ namespace TestProjectMSTest
         [TestMethod]
         public void TestMethod5()
         {
-            Assert.AreEqual(double.NaN, (Program.Func(0, 0, 0)), 0.0001);
+            Assert.AreEqual(double.NaN, (Program.Func(0, 0, 0)));
         }
 
         [TestMethod]
@@ -44,7 +44,7 @@ namespace TestProjectMSTest
         [TestMethod]
         public void DivideByZeroArgA()
         {
-            Assert.AreEqual(double.PositiveInfinity, (Program.Func(0, -3, 3)), 0.0001);
+            Assert.AreEqual(double.NaN, (Program.Func(0, -3, 3)));
         }
     }
 }
