@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\MSTest\\MSTest.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\MSTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj",
         "projectName": "FuncRealization",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\MSTest\\MSTest.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\MSTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\MSTest\\MSTest.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\MSTest.csproj",
         "projectName": "MSTest",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\MSTest\\MSTest.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\MSTest.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\MSTest\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,8 +48,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj"
+              "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\FuncRealization\\FuncRealization.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y7+ximc6OVGhjDxk574xbpdplmtZyP3SnQkPiC4N+hyabuM+KPrel7W0izzhnC0ldIgo3Xlk+xprvFS7s35dgg==",
+  "dgSpecHash": "Rs98MqbQEfRjoN+MgdhnZgin+zER6L8l+qveImZ8MMZwRQJjVgCV8t1mif2Bxq9Yp0BWSEEnUG2YffWRdkR8/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Семенов Николай ФИИТ-20\\тест\\Testing\\FuncRealization\\MSTest\\MSTest.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\Testing\\FuncRealization\\MSTest\\MSTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

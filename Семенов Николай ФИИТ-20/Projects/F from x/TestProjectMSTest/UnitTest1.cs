@@ -46,5 +46,69 @@ namespace TestProjectMSTest
         {
             Assert.AreEqual(double.NaN, (Program.Func(0, -3, 3)));
         }
+
+
+        //borders
+
+
+        [TestMethod]
+        public void Border1()
+        {
+            Assert.AreEqual(22.911, (Program.Func(1, -3.001, 3)), 0.001);
+        }
+
+        [TestMethod]
+        public void Border2()
+        {
+            Assert.AreEqual(-11011.243, (Program.Func(1, -4, 2.924)), 0.001);
+        }
+
+        [TestMethod]
+        public void Border3()
+        {
+            Assert.AreEqual(2347.965, (Program.Func(1, -4, 2.9241)), 0.001);
+        }
+
+        [TestMethod]
+        public void Border4()
+        {
+            Assert.AreEqual(-1677.380, (Program.Func(1, -4, 2.9239)), 0.001);
+        }
+
+        [TestMethod]
+        public void Border5()
+        {
+            Assert.AreEqual(double.NaN, (Program.Func(1, -2.9999, 3)));
+        }
+
+        [TestMethod]
+        public void Border6()
+        {
+            Assert.AreEqual(116.781, (Program.Func(1, 23.0001, 3)), 0.001);
+        }
+
+        [TestMethod]
+        public void Border7()
+        {
+            Assert.AreEqual(double.PositiveInfinity, (Program.Func(1, 23, 3)));
+        }
+
+        [TestMethod]
+        public void Border8()
+        {
+            Assert.AreEqual(double.NaN, (Program.Func(0, 0, 0)));
+        }
+
+        [TestMethod]
+        public void Border9()
+        {
+            Assert.AreEqual(-20, (Program.Func(0, -4, 3)), 0.001);
+        }
+
+        [TestMethod]
+        public void Border10()
+        {
+            Assert.AreEqual(double.PositiveInfinity, (Program.Func(1, -3, 3)));
+        }
     }
 }
