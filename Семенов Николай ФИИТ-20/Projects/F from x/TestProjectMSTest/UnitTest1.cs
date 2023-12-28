@@ -110,5 +110,20 @@ namespace TestProjectMSTest
         {
             Assert.AreEqual(double.PositiveInfinity, (Program.Func(1, -3, 3)));
         }
+
+
+        //arrays
+
+        [TestMethod]
+        public void Array1()
+        {
+            double[] a = { -20, -19.1528493718909, -0.611397487563494, 50.6243556529821, 149.554410049746 };
+            double[] b = Program.Razb(0, 10, 5, -4, 3);
+            for (int i = 0; i < a.Length; i++) 
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+            
+        }
     }
 }
