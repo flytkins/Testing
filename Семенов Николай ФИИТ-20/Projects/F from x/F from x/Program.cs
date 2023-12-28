@@ -15,7 +15,7 @@ namespace F_from_x
         public static double[] Razb(double x1, double x2, int n, double a, double d)
         {
             double[] diapazone = new double[n];
-            double h = (x2 - x1) / n - 1;
+            double h = (x2 - x1) / (n - 1);
             for (int i = 0; i < n; i++)
             {
                 diapazone[i] = Func(x1 + h * i, a, d);
