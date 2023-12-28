@@ -43,7 +43,7 @@ namespace F_from_x
             double[] diapazone = Razb(x1, x2, n, a, d);
             for (int i = 0; i < n; i++)
             {
-                Console.Write(diapazone[i] + " ");
+                Console.Write(diapazone[i] + ", ");
             }
         }
     }

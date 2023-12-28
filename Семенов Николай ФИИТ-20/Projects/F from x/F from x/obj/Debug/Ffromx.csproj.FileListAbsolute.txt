@@ -13,3 +13,10 @@ C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testin
 C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\Ffromx.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.exe
 C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.pdb
+C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.exe.config
+C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.exe
+C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.pdb
+C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\Ffromx.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\Ffromx.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.exe
+C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.pdb
