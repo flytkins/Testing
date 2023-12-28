@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -22,6 +23,24 @@ namespace F_from_x
             }
             return diapazone;
         }
+        public static void WriteAnswersToFile(double[] numbers, string filePath)
+        {
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(filePath))
+                {
+                    foreach (int number in numbers)
+                    {
+                        writer.WriteLine(number);
+                    }
+                }
+            }
+            catch (IOException)
+            {
+                Console.WriteLine("Ошибка при записи в файл");
+            }
+        }
+
         static void Main(string[] args)
         {
             double a, d;
@@ -41,10 +60,9 @@ namespace F_from_x
             Console.WriteLine("Write n:");
             n = Convert.ToInt32(Console.ReadLine());
             double[] diapazone = Razb(x1, x2, n, a, d);
-            for (int i = 0; i < n; i++)
-            {
-                Console.Write(diapazone[i] + ", ");
-            }
+            string filePath;
+            filePath = Console.ReadLine();
+            WriteAnswersToFile(diapazone, filePath);
         }
     }
 }

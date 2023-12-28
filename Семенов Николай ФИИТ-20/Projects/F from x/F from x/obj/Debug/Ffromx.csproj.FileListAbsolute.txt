@@ -20,3 +20,10 @@ C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-2
 C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\Ffromx.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.exe
 C:\Users\Admin\Documents\GitHub\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.pdb
+D:\Projects\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.exe.config
+D:\Projects\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.exe
+D:\Projects\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\bin\Debug\F from x.pdb
+D:\Projects\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\Ffromx.csproj.AssemblyReference.cache
+D:\Projects\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\Ffromx.csproj.CoreCompileInputs.cache
+D:\Projects\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.exe
+D:\Projects\Testing\Семенов Николай ФИИТ-20\Projects\F from x\F from x\obj\Debug\F from x.pdb
