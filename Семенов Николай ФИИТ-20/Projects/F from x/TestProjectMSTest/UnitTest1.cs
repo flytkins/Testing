@@ -110,5 +110,181 @@ namespace TestProjectMSTest
         {
             Assert.AreEqual(double.PositiveInfinity, (Program.Func(1, -3, 3)));
         }
+
+
+        //arrays
+
+        [TestMethod]
+        public void Array1()
+        {
+            double[] a = { -20, -19.1528493718909, -0.611397487563494, 50.6243556529821, 149.554410049746 };
+            double[] b = Program.Razb(0, 10, 5, -4, 3);
+            for (int i = 0; i < a.Length; i++) 
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+            
+        }
+        [TestMethod]
+        public void Array2()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array3()
+        {
+            double[] a = { -20, -19.1528493718909, -0.611397487563494, 50.6243556529821, 149.554410049746 };
+            double[] b = Program.Razb(0, 10, 5, 24, 3);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array4()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, 24, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array5()
+        {
+            double[] a = { Double.NaN };
+            double[] b = Program.Razb(0, 10, 5, 0, 0);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array6()
+        {
+            double[] a = { -2355.28493718909, -790.489619222653 -146.445589950254, -18.1528493718909, -0.611397487563494 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array7()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array8()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array9()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array10()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array11()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array12()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array13()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array14()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array15()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array16()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+        [TestMethod]
+        public void Array17()
+        {
+            double[] a = { -20, -21.9469670189497, -22.9643386640341, -24.8168208176061, -29.2691193620187 };
+            double[] b = Program.Razb(0, 10, 5, -4, 2);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Assert.AreEqual(a[i], b[i], 0.001);
+            }
+        }
+
     }
 }
