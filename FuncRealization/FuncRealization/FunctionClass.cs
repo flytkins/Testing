@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,17 @@ namespace FuncRealization
                 diapazone[i] = func(c, b, x1 + h * i);
             }
             return diapazone;
+        }
+        public static void PrintArrayToFile(double x1, double x2, int n, double c, double b, string path)
+        {
+            double[] array = Razb(x1, x2, n, c, b);
+            using (StreamWriter writer = new StreamWriter(path))
+            {
+                for (int i = 0; i < array.Length; i++)
+                {
+                    writer.WriteLine(array[i]);
+                }
+            }
         }
     }
 }
