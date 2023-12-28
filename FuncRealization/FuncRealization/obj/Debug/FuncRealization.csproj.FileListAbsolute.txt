@@ -13,3 +13,10 @@ C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testin
 C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.exe
 C:\Users\Admin\Desktop\Семенов Николай ФИИТ-20\тест\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.pdb
+D:\Projects\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.exe.config
+D:\Projects\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.exe
+D:\Projects\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.pdb
+D:\Projects\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.AssemblyReference.cache
+D:\Projects\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.CoreCompileInputs.cache
+D:\Projects\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.exe
+D:\Projects\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.pdb
