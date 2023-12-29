@@ -29,7 +29,7 @@ namespace F_from_x
             {
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
-                    foreach (int number in numbers)
+                    foreach (double number in numbers)
                     {
                         writer.WriteLine(number);
                     }

@@ -23,9 +23,8 @@ namespace FuncRealization
             }
             return diapazone;
         }
-        public static void PrintArrayToFile(double x1, double x2, int n, double c, double b, string path)
+        public static void PrintArrayToFile(double[] array, string path)
         {
-            double[] array = Razb(x1, x2, n, c, b);
             using (StreamWriter writer = new StreamWriter(path))
             {
                 for (int i = 0; i < array.Length; i++)

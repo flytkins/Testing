@@ -1,4 +1,5 @@
 using F_from_x;
+using System;
 
 namespace TestProjectMSTest
 {
@@ -286,5 +287,66 @@ namespace TestProjectMSTest
             }
         }
 
+
+        //write into file
+
+
+        //    [TestMethod]
+        //    [ExpectedException(typeof(Exception),
+        //"file is not created")]
+        //    public void File1()
+        //    {
+        //        Program.WriteAnswersToFile(Program.Razb(0, 10, 5, -4, 3), "results.txt");
+        //    }
+
+        [TestMethod]
+        public void TestFileExists1()
+        {
+            string path = "output.txt";
+
+            Program.WriteAnswersToFile(Program.Razb(0, 10, 5, -4, 3), path);
+
+            // Проверяем, что файл существует
+            Assert.IsTrue(File.Exists(path));
+        }
+        [TestMethod]
+        public void TestFileExists2()
+        {
+            string path = "C:\\Users\\flytk\\OneDrive\\Рабочий стол\\output.txt";
+
+            Program.WriteAnswersToFile(Program.Razb(0, 10, 5, -4, 3), path);
+
+            // Проверяем, что файл существует
+            Assert.IsTrue(File.Exists(path));
+        }
+
+        [TestMethod]
+        public void TestCreateFile()
+        {
+            // Создаем массив чисел
+            double[] array = Program.Razb(0, 10, 5, -4, 3);
+            double[] answer = { -20, 19.982191425682, 311.178765702728, 1087.96472283114, 2584.71506281091 };
+
+            // Создаем путь к файлу
+            string path = "output.txt";
+
+            // Вызываем функцию для создания файла
+            Program.WriteAnswersToFile(array, path);
+
+            // Проверяем, что содержимое файла соответствует ожидаемому
+            //string expectedContent = string.Join("\n", answer);
+            //expectedContent += "\n";
+            string actualContent = File.ReadAllText(path);
+            actualContent.Replace(',', '.');
+
+            string[] elements = actualContent.Split('\n');
+            // Преобразуем элементы в double
+
+            for (int i = 0; i < elements.Length; i++)
+            {
+                elements[i].Replace(',', '.');
+                Assert.AreEqual(Convert.ToDouble(elements[i]), answer[i], 0.001);
+            }
+        }
     }
 }
