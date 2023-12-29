@@ -20,3 +20,11 @@ D:\Projects\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.cs
 D:\Projects\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.CoreCompileInputs.cache
 D:\Projects\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.exe
 D:\Projects\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.pdb
+C:\Users\flytk\OneDrive\Documents\GitHub\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.exe.config
+C:\Users\flytk\OneDrive\Documents\GitHub\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.exe
+C:\Users\flytk\OneDrive\Documents\GitHub\Testing\FuncRealization\FuncRealization\bin\Debug\FuncRealization.pdb
+C:\Users\flytk\OneDrive\Documents\GitHub\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.AssemblyReference.cache
+C:\Users\flytk\OneDrive\Documents\GitHub\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.SuggestedBindingRedirects.cache
+C:\Users\flytk\OneDrive\Documents\GitHub\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.csproj.CoreCompileInputs.cache
+C:\Users\flytk\OneDrive\Documents\GitHub\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.exe
+C:\Users\flytk\OneDrive\Documents\GitHub\Testing\FuncRealization\FuncRealization\obj\Debug\FuncRealization.pdb

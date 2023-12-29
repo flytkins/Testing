@@ -17,6 +17,7 @@ namespace FuncRealization
             double b, c, x1, x2, step;
             int n, maxn = 20;
             bool error = false;
+            string path = Console.ReadLine();
             Console.WriteLine("Enter values: ");
             do
             {
@@ -75,11 +76,7 @@ namespace FuncRealization
             } while (error);
 
             step = (x2 - x1) / (n - 1);
-            for (double i = x1; i < x2; i = i + step)
-            {
-                Console.WriteLine(func(c, b, i));   
-            }
-            Console.WriteLine(func(b, c, x1));
+            FunctionClass.PrintArrayToFile(x1, x2, n, c, b, path);
         }
     }
 }
