@@ -121,5 +121,44 @@ namespace MSTest
                 Assert.AreEqual(a[i], b[i], 0.001);
             }
         }
+
+        [TestMethod]
+
+        public void FileExist()
+        {
+            string filePath = "D:\\Projects\\123.txt";
+            double[] b = FunctionClass.Razb(19, 27, 5, 2.01, 11);
+            FunctionClass.PrintArrayToFile(b, filePath);
+            Assert.IsTrue(File.Exists(filePath));  
+        }
+
+        [TestMethod]
+        public void File1()
+        {
+            string filePath = "D:\\Projects\\123.txt";
+            double[] a = { 6.749553591, 8.252150891, 10.089259, 12.3353473, 15.08146366 };
+            double[] b = FunctionClass.Razb(19, 27, 5, 2.01, 11);
+            double[] c = new double[5];
+            FunctionClass.PrintArrayToFile(b, filePath);
+            using (StreamReader reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    // –азделение строки на значени€ по заданным разделител€м
+                    string[] values = line.Split('\n');
+                    int i = 4;
+                    // ќбработка извлеченных значений
+                    foreach (string value in values)
+                    {
+                        c[i] = Convert.ToDouble(value); i--;
+                    }
+                }
+            }
+            for(int i = 0; i < 5; i++)
+            {
+                Assert.AreEqual(a[i], c[i], 0.001);
+            }
+        }
     }
 }

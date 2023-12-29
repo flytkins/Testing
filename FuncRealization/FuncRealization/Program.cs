@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -76,7 +77,22 @@ namespace FuncRealization
             } while (error);
 
             step = (x2 - x1) / (n - 1);
-            FunctionClass.PrintArrayToFile(x1, x2, n, c, b, path);
+            string filePath = "D:\\Projects\\123.txt";
+            using (StreamReader reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    // Разделение строки на значения по заданным разделителям
+                    string[] values = line.Split("\n");
+
+                    // Обработка извлеченных значений
+                    foreach (string value in values)
+                    {
+                        c.Append(Convert.ToDouble(value));
+                    }
+                }
+            }
         }
     }
 }
